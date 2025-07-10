@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - Software Learning Academy</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-container">
+    <h1 class="logo">Software Learning Academy</h1>
+    <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
+    <nav class="nav" id="nav">
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html" class="active">About</a>
+      <a href="register.html">Register</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </div>
+</header>
+
+<!-- About Section -->
+<section class="container" style="padding: 60px 20px;">
+  <h2 style="text-align: center; margin-bottom: 20px; color: #0077b6;">About Us</h2>
+  <p style="text-align: center; font-size: 1.1rem; max-width: 800px; margin: 0 auto 30px;">
+    Software Learning Academy is a premier training institute offering a wide range of IT and software development courses to prepare students and professionals for the modern tech industry.
+  </p>
+
+  <div style="max-width: 900px; margin: 0 auto;">
+    <h3 style="color: #0077b6;">Our Mission</h3>
+    <p>
+      Our mission is to empower learners with high-quality, industry-relevant skills that bridge the gap between academics and professional requirements. We aim to create future-ready developers, designers, and analysts through interactive and practical learning.
+    </p>
+
+    <h3 style="margin-top: 30px; color: #0077b6;">Why Choose Us?</h3>
+    <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.6;">
+      <li>Experienced instructors from the tech industry</li>
+      <li>Blended learning model (Online + Offline)</li>
+      <li>Hands-on projects and real-world case studies</li>
+      <li>Career assistance and internship guidance</li>
+      <li>Affordable and flexible course plans</li>
+    </ul>
+
+    <h3 style="margin-top: 30px; color: #0077b6;">Courses Offered</h3>
+    <p>
+      We provide courses in Full Stack Web Development, Mobile App Development, Data Science & AI, UI/UX Design, and more. Our curriculum is tailored to meet current industry standards and demands.
+    </p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container footer-content">
+    <p>© 2025 Software Learning Academy</p>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+</footer>
+
+<!-- Script for Hamburger -->
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const nav = document.getElementById('nav');
+
+  hamburger.addEventListener('click', () => {
+    nav.classList.toggle('show');
+  });
+</script>
+
+</body>
+</html>

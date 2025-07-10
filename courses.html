@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>All Courses - Software Learning Academy</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-container">
+    <h1 class="logo">Software Learning Academy</h1>
+
+    <button class="hamburger" id="hamburger">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <nav class="nav" id="nav">
+      <a href="index.html">Home</a>
+      <a href="courses.html" class="active">Courses</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+      <a href="register.html">Register</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Courses Section -->
+<section class="courses container">
+  <h2>All Courses in One place</h2>
+  <div class="course-grid">
+
+    <div class="course-card">
+      <img src="images/image3.png" alt="Full Stack" class="course-img" />
+      <h3>Full Stack Web Development</h3>
+      <p>HTML, CSS, JavaScript, React, Node.js, MongoDB</p>
+      <div class="button-row">
+        <a href="fullstack.html" class="btn small">View Details</a>
+        <a href="register.html" class="btn small">Enroll Now</a>
+      </div>
+    </div>
+
+    <div class="course-card">
+      <img src="images/uiux1.jpg" alt="Mobile Dev" class="course-img" />
+      <h3>Mobile App Development</h3>
+      <p>React Native, Flutter, Android, Firebase</p>
+      <div class="button-row">
+        <a href="mobile.html" class="btn small">View Details</a>
+        <a href="register.html" class="btn small">Enroll Now</a>
+      </div>
+    </div>
+
+    <div class="course-card">
+      <img src="images/courseimage1.webp" alt="Data Science" class="course-img" />
+      <h3>Data Science & AI</h3>
+      <p>Python, ML, Deep Learning, TensorFlow</p>
+      <div class="button-row">
+        <a href="datascience.html" class="btn small">View Details</a>
+        <a href="register.html" class="btn small">Enroll Now</a>
+      </div>
+    </div>
+
+    <div class="course-card">
+      <img src="images/uiux1.jpg" alt="UI UX" class="course-img" />
+      <h3>UI/UX Design Bootcamp</h3>
+      <p>Figma, wireframing, user experience and design principles</p>
+      <div class="button-row">
+        <a href="uiux.html" class="btn small">View Details</a>
+        <a href="register.html" class="btn small">Enroll Now</a>
+      </div>
+    </div>
+
+    <div class="course-card">
+      <img src="images/image1.jpg" alt="Course" class="course-img" />
+      <h3>Front-End Frameworks</h3>
+      <p>Master Angular, Vue.js, Bootstrap, and Tailwind</p>
+      <div class="button-row">
+        <a href="frontend.html" class="btn small">View Details</a>
+        <a href="register.html" class="btn small">Enroll Now</a>
+      </div>
+    </div>
+
+    <div class="course-card">
+      <img src="images/image2.jpeg" alt="Course" class="course-img" />
+      <h3>Back-End Specialization</h3>
+      <p>Node.js, Express, Django, APIs, and Databases</p>
+      <div class="button-row">
+        <a href="backend.html" class="btn small">View Details</a>
+        <a href="register.html" class="btn small">Enroll Now</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+
+  <!-- Contact Info Bar -->
+  <div class="footer-contact-info">
+    <div class="info-item">
+      <i class="fas fa-clock"></i>
+      <div>
+        <span>Monday - Friday</span><br />
+        <strong>8:00AM - 6:00PM</strong>
+      </div>
+    </div>
+    <div class="info-item">
+      <i class="fas fa-phone-alt"></i>
+      <div>
+        <span>Call Us</span><br />
+        <strong>+2 392 3929 210</strong>
+      </div>
+    </div>
+  </div>
+
+  <!-- Existing Footer Content -->
+  <div class="container footer-content">
+    <p>© 2025 Software Learning Academy</p>
+    <div class="social-icons">
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:youremail@example.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+
+</footer>
+
+
+<!-- Hamburger Menu Script -->
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const nav = document.getElementById('nav');
+
+  hamburger.addEventListener('click', () => {
+    nav.classList.toggle('show');
+  });
+</script>
+
+</body>
+</html>
+
